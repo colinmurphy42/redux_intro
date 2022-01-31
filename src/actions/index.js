@@ -10,3 +10,9 @@ export const decrement = (number) =>{
         payload: number
     };
 }
+
+export const signIn = () =>{
+    return{
+        type: 'SIGN_IN'
+    };
+}
